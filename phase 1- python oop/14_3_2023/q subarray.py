@@ -1,7 +1,5 @@
 start=int(input())
 end=int(input())
-arr=list(map(int,input().split()))
-print(arr)
 arr=[i for i in range(start,end+1)
 subarr=[]
 for i in range(len(arr)):
