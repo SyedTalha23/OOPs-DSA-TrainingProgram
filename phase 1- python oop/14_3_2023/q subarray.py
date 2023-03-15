@@ -1,6 +1,7 @@
 start=int(input())
 end=int(input())
-arr=[i for i in range(start,end+1)
+arr=[i for i in range(start,end+1)]
+print(arr)
 subarr=[]
 for i in range(len(arr)):
     for j in range(i,len(arr)):
