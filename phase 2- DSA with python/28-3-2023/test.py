@@ -1,0 +1,1 @@
+print(type(abs(-1-2)))

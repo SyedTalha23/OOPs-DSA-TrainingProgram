@@ -1,0 +1,1 @@
+list.Inbetween(list.headval.nextval,"Fri")
