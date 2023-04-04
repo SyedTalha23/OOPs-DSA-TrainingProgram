@@ -1,0 +1,2 @@
+while None:
+    print("sss")
