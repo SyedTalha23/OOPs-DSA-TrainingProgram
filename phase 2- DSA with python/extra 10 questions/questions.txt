@@ -1,0 +1,118 @@
+Question 1
+'''
+Write a python lambda expression for calculating simple interest.
+If simple interest is greater than 1000, display as “Platinum Member”, otherwise “Gold Member”.
+Use the below formula to calculate the simple interest.
+simple_interest=(principal_amount*duration in years*rate_of_interest)/100
+'''
+---------------------------------------------
+Question 2
+'''
+Write a python lambda expression for the following:
+1. Find the modulo of two numbers and add it to the difference of the same two numbers.
+2. Find the square root of a number using math library built-in function.
+3. Find the square root of a number without using built-in function.
+'''
+---------------------------------------------
+Question 3
+'''
+Write a higher order function, sum_all() to calculate the sum of elements in a list.
+sum_all() – It accepts a list and calculates the sum of the elements in the list based on 
+the conditions being checked in the lambda expressions passed to it.
+Only those values satisfying the condition should be included in the sum.
+Write the following lambda expressions.
+1. greater: To check whether a given number is greater than 10.
+2. divide: To check whether a given number is divisible by 10 and not greater than 100.
+3. range_of_values: To check whether a given number is between 25 and 50 (Both inclusive).
+'''
+
+---------------------------------------------
+Question 4
+'''
+Consider that the human tower is to be performed on a stage
+and the stage has a maximum weight limit.
+Write a python program to find the maximum number of people
+at the base level such that the total weight of tower does
+not exceed the 
+maximum weight limit of the stage.
+Assume that:
+1. Each person weighs 50 kg
+2. There will always be odd number of men at the base level
+of the human tower.
+'''
+
+---------------------------------------------
+Question 5
+ Parenthesis matching
+
+A non empty string instr containing only parenthesis (,),{.},[,] it return outstr based on following,
+– instr is properly nested and return 0
+– instr not properly nested, return position of element in instr
+– position start from 1
+Input: {([])} Output: 0
+Input: (])()] Output: 3
+Input: [[()]  Output: n+1 for last element i.e 5+1=6
+
+
+---------------------------------------------
+Question 6
+For a given list of numbers find the its factors and add the factors then if the sum of all factor 
+is present in original list, sort it and print it
+Ex:
+Input: 0,1,6
+Factors: 0 = 0, sum =0
+1 = 1, sum =1
+6 =1,2,3 = sum =6
+Output: 1,6
+If the sum is not present in the list then return -1.
+
+---------------------------------------------
+Question 7
+Maximum subarray
+
+An array is given suppose a =[3,5,8,2,19,12,7,11] One have to find the largest subarray that the 
+element satisfy the following condition
+x[i]=x[i-1]+x[i-2] If more than one substring if found then largets one has to print the array 
+which starts with the minimum elements and if they are also same then the array with minimum 
+second element and so on.
+Here the subarrays |2,3,5,8],[3,8,11],[5,7,12,19] 
+Expected is [2,3,5,8]
+
+---------------------------------------------
+Question 8
+ Special string reverse
+
+special string reverse
+Input Format: b@rd
+output Format: d@rb
+Explanation:
+We should reverse the alphabets of the string by keeping the 
+special characters in the same position.
+
+---------------------------------------------
+Question 9
+Write a python program that it should consist of special charnumbers and chars. 
+if there are even numbers of special chars Then the series should start with even followed by odd
+Input: 19@a42&516
+Output: 492561
+If there are odd numbers of special chars then the output will be starting with odd followed by even
+Input: 5u6@25g7#@
+Output: 56527
+If there are any number of additional digits append them at
+ last
+---------------------------------------------
+Question 10
+Password generation
+
+
+Given input of array of string in format <emnp name> <emp number> separated by comas ,Emp
+should contain only alphabets and employee number. You have to generate password for
+Ex:
+input: Robert: 36787, Tina: 68721, Jo:56389
+Output: tiX
+Conditions: len of robert is 6 and 6 is present in emp number
+robert (36787), so return the alphabet at position 6 that is t.
+Now len of tina is 4 and 3 is not present in the 68721 so select the number which is max 
+and less than the len of tina so select 2 return the alphabet that is at position 2 that is i.
+Now In of Jo is 2 it is not present in 56389 and there is not present any number 
+which is less than 2 so return X.
